@@ -1,0 +1,22 @@
+@media only screen and (max-width: 500px) {
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin: 0
+    }
+    a{
+        display: block;
+    }
+    button{
+        display: block;
+        padding: 2vw;
+        background-color: #afe0ff;
+        border: none;
+        outline-color: none;
+        cursor: pointer;
+        align-self: flex-start;
+        text-align:left;
+
+    }
+}
