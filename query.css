@@ -1,6 +1,7 @@
 @media only screen and (max-width: 500px) {
     ul{
         flex-direction: column;
+        display:none; 
     }
     li{
         margin: 0
@@ -19,4 +20,18 @@
         text-align:left;
 
     }
+    .h_2{
+         color: #800000;
+    }
+    nav{
+        display: flex;
+    }
+    .title{
+       margin-left: 30%;
+       font-size: 180%;
+    }
+    .close{
+        display:none;
+    }
+
 }
